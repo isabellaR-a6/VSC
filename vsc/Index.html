@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="VSC Serviços Automotivos em Santo André SP — especialistas em câmbio automático, mecânica geral, alinhamento, suspensão, freios e ar-condicionado. +20 anos de experiência." />
+  <meta name="theme-color" content="#0e2670" />
+  <title>VSC Serviços Automotivos — Santo André SP</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ════════════════════════
+       TOPBAR
+  ════════════════════════ -->
+  <div class="topbar" role="banner" aria-label="Informações de contato rápido">
+    <div class="container topbar-inner">
+      <span class="topbar-local" aria-label="Localização">
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5s2.5 1.12 2.5 2.5S13.38 11.5 12 11.5z"/></svg>
+        Santo André — SP
+      </span>
+      <a class="topbar-tel" href="tel:+5511943162840" aria-label="Ligar para VSC Serviços Automotivos">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        (11) 4316-2840
+      </a>
+    </div>
+  </div>
+
+  <!-- ════════════════════════
+       NAVBAR
+  ════════════════════════ -->
+  <header class="navbar" role="banner">
+    <div class="container nav-inner">
+
+      <a href="#inicio" class="logo" aria-label="VSC Serviços Automotivos — Início">
+        <div class="logo-badge" aria-hidden="true">VSC</div>
+        <div class="logo-text">
+          <span class="logo-nome">Serviços Automotivos</span>
+          <span class="logo-cidade">Santo André SP</span>
+        </div>
+      </a>
+
+      <nav class="nav-links" aria-label="Navegação principal">
+        <a href="#inicio">Home</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#sobre">Sobre Nós</a>
+        <a href="#depoimentos">Depoimentos</a>
+        <a href="#contato">Contato</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button
+          class="theme-toggle"
+          id="themeToggle"
+          aria-label="Alternar entre modo claro e escuro"
+          title="Modo claro / escuro"
+          type="button"
+        >
+          <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="5"/>
+            <line x1="12" y1="1" x2="12" y2="3"/>
+            <line x1="12" y1="21" x2="12" y2="23"/>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+            <line x1="1" y1="12" x2="3" y2="12"/>
+            <line x1="21" y1="12" x2="23" y2="12"/>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+          </svg>
+          <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+          </svg>
+        </button>
+
+        <button
+          class="hamburger"
+          id="hamburger"
+          aria-label="Abrir menu de navegação"
+          aria-expanded="false"
+          aria-controls="mobileMenu"
+          type="button"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+
+    </div>
+
+    <nav class="mobile-menu" id="mobileMenu" aria-label="Menu mobile">
+      <a href="#inicio">Home</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#sobre">Sobre Nós</a>
+      <a href="#depoimentos">Depoimentos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <!-- ════════════════════════
+       HERO
+  ════════════════════════ -->
+  <section class="hero" id="inicio" aria-labelledby="hero-titulo">
+    <div class="hero-shape hero-shape-1" aria-hidden="true"></div>
+    <div class="hero-shape hero-shape-2" aria-hidden="true"></div>
+    <div class="hero-overlay" aria-hidden="true"></div>
+
+    <div class="container hero-content">
+      <div class="hero-badge">A sua oficina de confiança em Santo André</div>
+
+      <h1 class="hero-title" id="hero-titulo">
+        VSC Serviços<br />
+        <span class="hero-highlight">Automotivos</span>
+      </h1>
+
+      <p class="hero-desc">
+        Especializada em manutenção automotiva com mais de 20 anos de experiência em Santo André SP.
+        Qualidade, transparência e segurança para você e seu veículo.
+      </p>
+
+      <div class="hero-ctas">
+        <a href="#servicos" class="btn-primary">Ver Serviços</a>
+        <button class="btn-outline" id="heroWhatsapp" type="button">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Falar no WhatsApp
+        </button>
+      </div>
+
+      <div class="hero-stats" role="list" aria-label="Estatísticas da empresa">
+        <div class="stat" role="listitem">
+          <strong>+20</strong>
+          <span>Anos de Experiência</span>
+        </div>
+        <div class="stat-divider" aria-hidden="true"></div>
+        <div class="stat" role="listitem">
+          <strong>+5.000</strong>
+          <span>Clientes Atendidos</span>
+        </div>
+        <div class="stat-divider" aria-hidden="true"></div>
+        <div class="stat" role="listitem">
+          <strong>100%</strong>
+          <span>Satisfação Garantida</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════
+       SERVIÇOS
+  ════════════════════════ -->
+  <section class="servicos" id="servicos" aria-labelledby="servicos-titulo">
+    <div class="container">
+      <header class="section-header">
+        <span class="section-tag">O que fazemos</span>
+        <h2 id="servicos-titulo">Nossos Serviços</h2>
+        <p>Clique em qualquer serviço para falar diretamente com um especialista no WhatsApp</p>
+      </header>
+
+      <div class="servicos-grid">
+
+        <article class="servico-card" data-servico="Câmbio Automático">
+          <div class="card-icon" aria-hidden="true">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="17 1 21 5 17 9"/><path d="M3 11V9a4 4 0 0 1 4-4h14"/><polyline points="7 23 3 19 7 15"/><path d="M21 13v2a4 4 0 0 1-4 4H3"/></svg>
+          </div>
+          <h3>Câmbio Automático</h3>
+          <p>Especialistas em diagnóstico, manutenção e reparo de câmbio automático de todos os modelos.</p>
+          <ul class="card-list">
+            <li>Troca de óleo e filtro do câmbio</li>
+            <li>Revisão e reparo completo</li>
+            <li>Diagnóstico eletrônico</li>
+            <li>Atendimento a todas as marcas</li>
+          </ul>
+          <button class="btn-whatsapp" type="button">💬 Falar com especialista</button>
+        </article>
+
+        <article class="servico-card" data-servico="Mecânica Geral">
+          <div class="card-icon" aria-hidden="true">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+          </div>
+          <h3>Mecânica Geral</h3>
+          <p>Serviços completos de mecânica para manter seu veículo em perfeitas condições de desempenho.</p>
+          <ul class="card-list">
+            <li>Motor e sistema de arrefecimento</li>
+            <li>Correia dentada e acessórios</li>
+            <li>Revisão geral do veículo</li>
+            <li>Checklist completo com laudo</li>
+          </ul>
+          <button class="btn-whatsapp" type="button">💬 Falar com especialista</button>
+        </article>
+
+        <article class="servico-card" data-servico="Alinhamento e Balanceamento">
+          <div class="card-icon" aria-hidden="true">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="3"/><line x1="12" y1="2" x2="12" y2="5"/><line x1="12" y1="19" x2="12" y2="22"/><line x1="2" y1="12" x2="5" y2="12"/><line x1="19" y1="12" x2="22" y2="12"/></svg>
+          </div>
+          <h3>Alinhamento e Balanceamento</h3>
+          <p>Estabilidade e segurança com alinhamento computadorizado e balanceamento precisos.</p>
+          <ul class="card-list">
+            <li>Alinhamento computadorizado 3D</li>
+            <li>Balanceamento dinâmico</li>
+            <li>Verificação de desgaste dos pneus</li>
+            <li>Geometria da suspensão</li>
+          </ul>
+          <button class="btn-whatsapp" type="button">💬 Falar com especialista</button>
+        </article>
+
+        <article class="servico-card" data-servico="Suspensão">
+          <div class="card-icon" aria-hidden="true">🚗</div>
+          <h3>Suspensão</h3>
+          <p>Diagnóstico e reparo do sistema de suspensão para mais conforto, estabilidade e segurança.</p>
+          <ul class="card-list">
+            <li>Revisão de amortecedores e molas</li>
+            <li>Troca de buchas e bandejas</li>
+            <li>Análise de geometria</li>
+            <li>Garantia no serviço</li>
+          </ul>
+          <button class="btn-whatsapp" type="button">💬 Falar com especialista</button>
+        </article>
+
+        <article class="servico-card" data-servico="Ar-Condicionado Automotivo">
+          <div class="card-icon" aria-hidden="true">❄️</div>
+          <h3>Ar-Condicionado Automotivo</h3>
+          <p>Manutenção e reparo completo do ar-condicionado do seu veículo com higienização e carga de gás.</p>
+          <ul class="card-list">
+            <li>Recarga de gás e vedação</li>
+            <li>Reparo do compressor</li>
+            <li>Higienização do sistema</li>
+            <li>Verificação de vazamentos</li>
+          </ul>
+          <button class="btn-whatsapp" type="button">💬 Falar com especialista</button>
+        </article>
+
+        <article class="servico-card" data-servico="Freios">
+          <div class="card-icon" aria-hidden="true">🛑</div>
+          <h3>Freios</h3>
+          <p>Sistema de freios revisado e ajustado para garantir a máxima segurança nas frenagens.</p>
+          <ul class="card-list">
+            <li>Disco, platô e rolamento</li>
+            <li>Cilindro mestre e escravo</li>
+            <li>Regulagem e ajuste fino</li>
+            <li>Garantia no serviço</li>
+          </ul>
+          <button class="btn-whatsapp" type="button">💬 Falar com especialista</button>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════
+       SOBRE
+  ════════════════════════ -->
+  <section class="sobre" id="sobre" aria-labelledby="sobre-titulo">
+    <div class="container sobre-inner">
+
+      <div class="sobre-imagem">
+        <div class="sobre-img-placeholder" role="img" aria-label="Foto da oficina VSC Serviços Automotivos">
+          <span aria-hidden="true">📸</span>
+          <p>Foto da Oficina</p>
+        </div>
+        <div class="sobre-badge-float" aria-hidden="true">
+          <strong>+20</strong>
+          <span>Anos no mercado</span>
+        </div>
+      </div>
+
+      <div class="sobre-texto">
+        <span class="section-tag">Quem somos</span>
+        <h2 id="sobre-titulo">VSC Serviços Automotivos</h2>
+        <p>Há mais de 20 anos a VSC Serviços Automotivos atende Santo André e região com qualidade, transparência e compromisso. Nossa missão é garantir a segurança e o desempenho máximo do seu veículo.</p>
+        <p>Contamos com mecânicos experientes, equipamentos de diagnóstico de última geração e utilizamos peças de qualidade em todos os serviços.</p>
+
+        <ul class="sobre-diferenciais" aria-label="Nossos diferenciais">
+          <li class="diferencial"><span class="check" aria-hidden="true">✔</span><span>Mecânicos experientes e certificados</span></li>
+          <li class="diferencial"><span class="check" aria-hidden="true">✔</span><span>Garantia em todos os serviços</span></li>
+          <li class="diferencial"><span class="check" aria-hidden="true">✔</span><span>Orçamento grátis e sem compromisso</span></li>
+          <li class="diferencial"><span class="check" aria-hidden="true">✔</span><span>Atendimento via WhatsApp</span></li>
+          <li class="diferencial"><span class="check" aria-hidden="true">✔</span><span>Peças de qualidade original</span></li>
+          <li class="diferencial"><span class="check" aria-hidden="true">✔</span><span>Total transparência no serviço</span></li>
+        </ul>
+
+        <button class="btn-primary" id="sobreWhatsapp" type="button">💬 Falar com a Equipe</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ════════════════════════
+       DEPOIMENTOS
+  ════════════════════════ -->
+  <section class="depoimentos" id="depoimentos" aria-labelledby="depoimentos-titulo">
+    <div class="container">
+      <header class="section-header">
+        <span class="section-tag">O que dizem</span>
+        <h2 id="depoimentos-titulo">Clientes Satisfeitos</h2>
+        <p>Confira o que nossos clientes falam sobre nosso trabalho</p>
+      </header>
+
+      <div class="depoimentos-grid">
+
+        <article class="depoimento-card">
+          <div class="stars" aria-label="Avaliação: 5 de 5 estrelas">★★★★★</div>
+          <p>"Atendimento excelente, muito profissional e preço justo. Levei meu carro com problema no câmbio e saiu perfeito. Indico a todos!"</p>
+          <footer class="depoimento-autor">
+            <div class="autor-avatar" aria-hidden="true">PM</div>
+            <div>
+              <strong>Paulo Mendes</strong>
+              <span>Cliente há 4 anos</span>
+            </div>
+          </footer>
+        </article>
+
+        <article class="depoimento-card destaque">
+          <div class="stars" aria-label="Avaliação: 5 de 5 estrelas">★★★★★</div>
+          <p>"Profissionalismo e qualidade em cada detalhe. Meu ar-condicionado voltou a funcionar perfeitamente. Ótimo custo-benefício!"</p>
+          <footer class="depoimento-autor">
+            <div class="autor-avatar" aria-hidden="true">AC</div>
+            <div>
+              <strong>Ana Costa</strong>
+              <span>Cliente há 3 anos</span>
+            </div>
+          </footer>
+        </article>
+
+        <article class="depoimento-card">
+          <div class="stars" aria-label="Avaliação: 5 de 5 estrelas">★★★★★</div>
+          <p>"Transparência total no orçamento e serviço impecável. Faço todas as revisões do meu carro aqui. Super recomendo!"</p>
+          <footer class="depoimento-autor">
+            <div class="autor-avatar" aria-hidden="true">RS</div>
+            <div>
+              <strong>Ricardo Silva</strong>
+              <span>Cliente há 2 anos</span>
+            </div>
+          </footer>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════
+       CONTATO
+  ════════════════════════ -->
+  <section class="contato" id="contato" aria-labelledby="contato-titulo">
+    <div class="container contato-inner">
+
+      <div class="contato-info">
+        <span class="section-tag">Entre em contato</span>
+        <h2 id="contato-titulo">Fale com a Gente</h2>
+        <p>Estamos prontos para te atender! Entre em contato pelo WhatsApp ou venha nos visitar em Santo André.</p>
+
+        <address class="contato-items" aria-label="Informações de contato">
+          <div class="contato-item">
+            <div class="contato-icon-wrap" aria-hidden="true">📍</div>
+            <div>
+              <strong>Endereço</strong>
+              <span>Santo André — SP</span>
+            </div>
+          </div>
+          <div class="contato-item">
+            <div class="contato-icon-wrap" aria-hidden="true">🕐</div>
+            <div>
+              <strong>Horário de Atendimento</strong>
+              <span>Seg–Sex: 08h–18h | Sáb: 08h–13h</span>
+            </div>
+          </div>
+          <div class="contato-item">
+            <div class="contato-icon-wrap" aria-hidden="true">📞</div>
+            <div>
+              <strong>Telefone / WhatsApp</strong>
+              <span><a href="tel:+5511943162840" style="color:inherit">(11) 4316-2840</a></span>
+            </div>
+          </div>
+        </address>
+
+        <button class="btn-whatsapp-main" id="btnWhatsappGeral" type="button">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Chamar no WhatsApp
+        </button>
+      </div>
+
+      <div class="contato-mapa">
+        <div class="mapa-placeholder" role="img" aria-label="Localização no mapa — cole o iframe do Google Maps aqui">
+          <span aria-hidden="true">🗺️</span>
+          <p>Google Maps<br /><small>Cole o iframe aqui</small></p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ════════════════════════
+       FOOTER
+  ════════════════════════ -->
+  <footer class="footer" role="contentinfo">
+    <div class="container footer-inner">
+      <a href="#inicio" class="logo" aria-label="VSC Serviços Automotivos — voltar ao topo">
+        <div class="logo-badge" aria-hidden="true">VSC</div>
+        <div class="logo-text">
+          <span class="logo-nome">Serviços Automotivos</span>
+          <span class="logo-cidade">Santo André SP</span>
+        </div>
+      </a>
+      <p>© 2025 VSC Serviços Automotivos. Todos os direitos reservados.</p>
+      <p class="footer-made">Feito com ❤️ para você dirigir com tranquilidade</p>
+    </div>
+  </footer>
+
+  <!-- ════════════════════════
+       BOTÃO FLUTUANTE WHATSAPP
+  ════════════════════════ -->
+  <button
+    class="whatsapp-float"
+    id="whatsappFloat"
+    type="button"
+    aria-label="Fale conosco pelo WhatsApp"
+    title="Fale conosco pelo WhatsApp"
+  >
+    <svg width="30" height="30" viewBox="0 0 24 24" fill="white" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
